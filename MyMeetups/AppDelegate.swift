@@ -27,6 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let baseURL = plist["BaseURL"] as? String
         print(apiKey)
         print(baseURL)
+        
+        let rootViewController = window!.rootViewController as! UINavigationController
+        let cvc = rootViewController.topViewController as! CitiesViewController
+        cvc.cityStore = CityStore()
  
         return true
     }

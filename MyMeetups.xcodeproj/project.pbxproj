@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F792A70B1D9C11EF0065398D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A70A1D9C11EF0065398D /* AppDelegate.swift */; };
-		F792A70D1D9C11EF0065398D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A70C1D9C11EF0065398D /* ViewController.swift */; };
+		F792A70D1D9C11EF0065398D /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A70C1D9C11EF0065398D /* CitiesViewController.swift */; };
 		F792A7101D9C11EF0065398D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F792A70E1D9C11EF0065398D /* Main.storyboard */; };
 		F792A7121D9C11EF0065398D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F792A7111D9C11EF0065398D /* Assets.xcassets */; };
 		F792A7151D9C11EF0065398D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F792A7131D9C11EF0065398D /* LaunchScreen.storyboard */; };
 		F792A7201D9C11EF0065398D /* MyMeetupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A71F1D9C11EF0065398D /* MyMeetupsTests.swift */; };
 		F792A72B1D9C11EF0065398D /* MyMeetupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A72A1D9C11EF0065398D /* MyMeetupsUITests.swift */; };
 		F792A7391D9C12850065398D /* MeetupConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F792A7381D9C12850065398D /* MeetupConfig.plist */; };
+		F792A73B1D9C2F740065398D /* CityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A73A1D9C2F740065398D /* CityStore.swift */; };
+		F792A7401D9C311E0065398D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A73F1D9C311E0065398D /* CoreDataStack.swift */; };
+		F792A74A1D9C337B0065398D /* MyMeetups.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F792A7481D9C337B0065398D /* MyMeetups.xcdatamodeld */; };
+		F792A74D1D9C356A0065398D /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A74B1D9C356A0065398D /* City+CoreDataClass.swift */; };
+		F792A74E1D9C356A0065398D /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A74C1D9C356A0065398D /* City+CoreDataProperties.swift */; };
+		F792A7501D9C37900065398D /* MeetupAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A74F1D9C37900065398D /* MeetupAPI.swift */; };
+		F792A7521D9C50BF0065398D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792A7511D9C50BF0065398D /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		F792A7071D9C11EF0065398D /* MyMeetups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMeetups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F792A70A1D9C11EF0065398D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F792A70C1D9C11EF0065398D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F792A70C1D9C11EF0065398D /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		F792A70F1D9C11EF0065398D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F792A7111D9C11EF0065398D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F792A7141D9C11EF0065398D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		F792A72A1D9C11EF0065398D /* MyMeetupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeetupsUITests.swift; sourceTree = "<group>"; };
 		F792A72C1D9C11EF0065398D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F792A7381D9C12850065398D /* MeetupConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeetupConfig.plist; sourceTree = "<group>"; };
+		F792A73A1D9C2F740065398D /* CityStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityStore.swift; sourceTree = "<group>"; };
+		F792A73F1D9C311E0065398D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F792A7491D9C337B0065398D /* MyMeetups.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMeetups.xcdatamodel; sourceTree = "<group>"; };
+		F792A74B1D9C356A0065398D /* City+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F792A74C1D9C356A0065398D /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F792A74F1D9C37900065398D /* MeetupAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupAPI.swift; sourceTree = "<group>"; };
+		F792A7511D9C50BF0065398D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,9 @@
 		F792A6FE1D9C11EE0065398D = {
 			isa = PBXGroup;
 			children = (
+				F792A74B1D9C356A0065398D /* City+CoreDataClass.swift */,
+				F792A74C1D9C356A0065398D /* City+CoreDataProperties.swift */,
+				F792A73F1D9C311E0065398D /* CoreDataStack.swift */,
 				F792A7091D9C11EF0065398D /* MyMeetups */,
 				F792A71E1D9C11EF0065398D /* MyMeetupsTests */,
 				F792A7291D9C11EF0065398D /* MyMeetupsUITests */,
@@ -99,11 +116,15 @@
 		F792A7091D9C11EF0065398D /* MyMeetups */ = {
 			isa = PBXGroup;
 			children = (
+				F792A7481D9C337B0065398D /* MyMeetups.xcdatamodeld */,
 				F792A70A1D9C11EF0065398D /* AppDelegate.swift */,
-				F792A70C1D9C11EF0065398D /* ViewController.swift */,
+				F792A73A1D9C2F740065398D /* CityStore.swift */,
+				F792A70C1D9C11EF0065398D /* CitiesViewController.swift */,
+				F792A7511D9C50BF0065398D /* ItemCell.swift */,
 				F792A70E1D9C11EF0065398D /* Main.storyboard */,
 				F792A7111D9C11EF0065398D /* Assets.xcassets */,
 				F792A7131D9C11EF0065398D /* LaunchScreen.storyboard */,
+				F792A74F1D9C37900065398D /* MeetupAPI.swift */,
 				F792A7161D9C11EF0065398D /* Info.plist */,
 				F792A7381D9C12850065398D /* MeetupConfig.plist */,
 			);
@@ -266,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F792A70D1D9C11EF0065398D /* ViewController.swift in Sources */,
+				F792A74D1D9C356A0065398D /* City+CoreDataClass.swift in Sources */,
+				F792A7401D9C311E0065398D /* CoreDataStack.swift in Sources */,
+				F792A7521D9C50BF0065398D /* ItemCell.swift in Sources */,
+				F792A74E1D9C356A0065398D /* City+CoreDataProperties.swift in Sources */,
+				F792A70D1D9C11EF0065398D /* CitiesViewController.swift in Sources */,
+				F792A7501D9C37900065398D /* MeetupAPI.swift in Sources */,
+				F792A73B1D9C2F740065398D /* CityStore.swift in Sources */,
 				F792A70B1D9C11EF0065398D /* AppDelegate.swift in Sources */,
+				F792A74A1D9C337B0065398D /* MyMeetups.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +562,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F792A7481D9C337B0065398D /* MyMeetups.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F792A7491D9C337B0065398D /* MyMeetups.xcdatamodel */,
+			);
+			currentVersion = F792A7491D9C337B0065398D /* MyMeetups.xcdatamodel */;
+			path = MyMeetups.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F792A6FF1D9C11EE0065398D /* Project object */;
 }
